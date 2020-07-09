@@ -3,7 +3,7 @@ drop table if exists contacts;
 create table contacts(id serial primary key,firstname varchar(30) not null,lastname varchar(30) not null, email varchar(30) not null);
 
 insert into contacts(firstname, lastname, email) values
-  ('Bilbo','Baggins','bilbo@theshire.com'),
+  ('Bilboo','Baggins','bilbo@theshire.com'),
   ('Frodo','Baggins','frodo@theshire.com'),
   ('Samwise','Gamgee','sam@theshire.com'),
   ('Peregrin','Took','pippin@theshire.com'),
@@ -13,6 +13,6 @@ insert into contacts(firstname, lastname, email) values
 create table test_table(id serial primary key,altezza varchar(30) not null, larghezza varchar(30) not null, descrizione varchar(30) not null);
 
 insert into test_table(altezza, larghezza, descrizione) values
-  ('30','125', 'scafale 1'),
+  ('30','125','scafale 1'),
   ('60','150','scafale 2'),
   ('90','200','scafale 3');
