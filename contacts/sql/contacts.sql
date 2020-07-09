@@ -10,7 +10,7 @@ insert into contacts(firstname, lastname, email) values
   ('Meriadoc','Brandybuck','merry@theshire.com')
   ('Luigi','Bullo','lulu@theshire.com');
 
-create table test_table (id serial primary key,altezza varchar(30) not null, larghezza varchar(30) not null, descrizione varchar(30) not null);
+create table test_table(id serial primary key,altezza varchar(30) not null, larghezza varchar(30) not null, descrizione varchar(30) not null);
 
 insert into test_table(altezza, larghezza, descrizione) values
   ('30','125', 'scafale 1'),
