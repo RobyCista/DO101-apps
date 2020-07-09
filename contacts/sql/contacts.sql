@@ -7,7 +7,12 @@ insert into contacts(firstname, lastname, email) values
   ('Frodo','Baggins','frodo@theshire.com'),
   ('Samwise','Gamgee','sam@theshire.com'),
   ('Peregrin','Took','pippin@theshire.com'),
-  ('Meriadoc','Brandybuck','merry@theshire.com');
+  ('Meriadoc','Brandybuck','merry@theshire.com')
+  ('Luigi','Bullo','lulu@theshire.com');
 
+create table test_table (id serial primary key,altezza varchar(30) not null, larghezza varchar(30) not null, descrizione varchar(30) not null);
 
-
+insert into test_table(altezza, larghezza, descrizione) values
+  ('30','125', 'scafale 1'),
+  ('60','150','scafale 2'),
+  ('90','200','scafale 3');
